@@ -1,0 +1,43 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(237, 237, 192);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 15px;
+    border-bottom: 1px solid #ddd;
+}
+div>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.photo{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 140px;
+}
+div>img{
+    width: 300px;
+}
+div>h3{
+    text-align: center;
+    font-size: 14px;
+}
+div>p{
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+}
+.about-me{
+    text-align: center;
+}
